@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+td{
+    background-color: rgba(23,92,164,0.60);
+    height: 120px;
+    width: 120px;
+    padding: 0px;
+    border: 5px solid #175CA4;
+    border-radius: 16px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+table{
+    margin-top: 1rem;
+    border-collapse:separate;
+    border-spacing:10px 10px;
+}
+
+@media (max-width: 605px) {
+    td{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 345px) {
+    td{
+        height: 40px;
+        width: 40px;
+    }
+}
